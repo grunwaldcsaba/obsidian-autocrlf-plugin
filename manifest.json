@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-autocrlf-plugin",
+	"name": "AutoCRLF Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "This is an automatic LF - CRLF replacer plugin for Obsidian (https://obsidian.md).",
+	"author": "Csaba Grünwald",
+	"authorUrl": "https://github.com/grunwaldcsaba",
+	"isDesktopOnly": false
+}
