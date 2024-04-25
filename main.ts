@@ -7,11 +7,14 @@ export default class ObsidianAutoCRLFPlugin extends Plugin {
 	}
 
 	async onload() {
-		this.app.vault.on('modify', (file) => {
+
+		this.registerEvent(this.app.vault.on("modify", (file) => {
 			if (file instanceof TFile){
 				this.autoReplaceLFToCRLF(this.app.vault, file as TFile)
 			}
-		});
+		}))
+
+		
 	}
 }
 
